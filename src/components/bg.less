@@ -1,0 +1,29 @@
+.lp-tl {
+  &-bg {
+    height: 9px;
+    display: flex;
+    align-items: center;
+
+    &-line {
+      height: 5px;
+      background-color: #D7D8D9;
+      flex-grow: 1;
+    }
+
+    &-arrow {
+      width: 0;
+      height: 0;
+      border-width: 6px;
+      border-style: solid;
+      border-color: transparent #D7D8D9 transparent transparent;
+      transform: rotate(-180deg);
+    }
+
+    &-stroke {
+      height: 100%;
+      width: 2px;
+      flex-grow: 0;
+      background-color: #000;
+    }
+  }
+}

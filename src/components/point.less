@@ -1,0 +1,33 @@
+.lp-tl {
+  &-point {
+
+    &-circle {
+      box-sizing: border-box;
+      height: 17px;
+      width: 17px;
+      border: 4px solid #FFFFFF;
+      background-color: #35B34A;
+      border-radius: 50%;
+
+      &-hover {
+        &:hover {
+          border-width: 3px;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .ant-popover-placement-topLeft>.ant-popover-content>.ant-popover-arrow {
+      left: 4px;
+    }
+
+    .ant-popover-placement-topRight>.ant-popover-content>.ant-popover-arrow {
+      right: 4px;
+    }
+
+    .ant-popover-inner-content {
+      white-space: nowrap;
+      font-size: 12px;
+    }
+  }
+}
