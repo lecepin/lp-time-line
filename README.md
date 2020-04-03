@@ -8,7 +8,7 @@
 - 里程碑时间线 TimeLine
 - 时间范围线 TimeRangeLine
 
-![](./public/cover.jpg)
+![](https://img.alicdn.com/tfs/TB11KzBcsKfxu4jSZPfXXb3dXXa-1430-834.jpg)
 
 ##Install
 
