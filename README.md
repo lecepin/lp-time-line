@@ -10,7 +10,7 @@
 
 ![](https://img.alicdn.com/tfs/TB11KzBcsKfxu4jSZPfXXb3dXXa-1430-834.jpg)
 
-##Install
+## Install
 
 [![](https://nodei.co/npm/lp-time-line.png)](https://npmjs.com/package/lp-time-line)
 
@@ -18,7 +18,7 @@
 npm install lp-time-line
 ```
 
-##Usage
+## Usage
 
 ```js
 import { TimeLine, TimeRangeLine } from "lp-time-line"
@@ -47,7 +47,7 @@ import { TimeLine, TimeRangeLine } from "lp-time-line"
 | renderTooltip    | Function(item)  |      |        | Tootip的渲染函数，item包含了原始信息，`item._isAfterCurrentTime`为当前点是否在当前时间后。 |
 | renderSubContent | Function(item)  |      |        | 点下方文本的渲染函数，item包含了原始信息，`item._isAfterCurrentTime`为当前点是否在当前时间后。 |
 
-####LegendData 类型
+#### LegendData 类型
 
 | 属性名 | 类型         | 必填 | 默认值 | 备注                           |
 | ------ | ------------ | ---- | ------ | ------------------------------ |
